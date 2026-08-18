@@ -1,18 +1,18 @@
-import arslanAsimProfile from "@/assets/arslan-asim-profile.jpg.asset.json";
-import mobilePricePredictorForm from "@/assets/Screenshot_2025-10-30_012633.png.asset.json";
-import mobilePricePredictorSpecs from "@/assets/Screenshot_2025-10-30_012744.png.asset.json";
-import mobilePriceConfusionMatrix from "@/assets/Screenshot_2025-10-30_010955.png.asset.json";
-import umt212106 from "@/assets/umt-Screenshot_2026-04-24_212106.png.asset.json";
-import umt212144 from "@/assets/umt-Screenshot_2026-04-24_212144.png.asset.json";
-import umt212244 from "@/assets/umt-Screenshot_2026-04-24_212244.png.asset.json";
-import umt212321 from "@/assets/umt-Screenshot_2026-04-24_212321.png.asset.json";
-import umt212524 from "@/assets/umt-Screenshot_2026-04-24_212524.png.asset.json";
-import umt212626 from "@/assets/umt-Screenshot_2026-04-24_212626.png.asset.json";
-import travelHero from "@/assets/travel-Screenshot_2026-04-14_215700.png.asset.json";
-import travelDeganvy from "@/assets/travel-Screenshot_2026-04-14_215714.png.asset.json";
-import travelDesert from "@/assets/travel-Screenshot_2026-04-14_215722.png.asset.json";
-import travelPopular from "@/assets/travel-Screenshot_2026-04-14_215735.png.asset.json";
-import travelFeatures from "@/assets/travel-Screenshot_2026-04-14_215746.png.asset.json";
+import arslanAsimProfile from "@/assets/arslan-asim-profile.jpg";
+import mobilePricePredictorForm from "@/assets/Screenshot_2025-10-30_012633.png";
+import mobilePricePredictorSpecs from "@/assets/Screenshot_2025-10-30_012744.png";
+import mobilePriceConfusionMatrix from "@/assets/Screenshot_2025-10-30_010955.png";
+import umt212106 from "@/assets/umt-Screenshot_2026-04-24_212106.png";
+import umt212144 from "@/assets/umt-Screenshot_2026-04-24_212144.png";
+import umt212244 from "@/assets/umt-Screenshot_2026-04-24_212244.png";
+import umt212321 from "@/assets/umt-Screenshot_2026-04-24_212321.png";
+import umt212524 from "@/assets/umt-Screenshot_2026-04-24_212524.png";
+import umt212626 from "@/assets/umt-Screenshot_2026-04-24_212626.png";
+import travelHero from "@/assets/travel-Screenshot_2026-04-14_215700.png";
+import travelDeganvy from "@/assets/travel-Screenshot_2026-04-14_215714.png";
+import travelDesert from "@/assets/travel-Screenshot_2026-04-14_215722.png";
+import travelPopular from "@/assets/travel-Screenshot_2026-04-14_215735.png";
+import travelFeatures from "@/assets/travel-Screenshot_2026-04-14_215746.png";
 
 /**
 
@@ -31,7 +31,7 @@ export const profile = {
     "Computer Science graduate focused on AI, machine learning, prompt engineering, and UI/UX design.",
   status: "Exploring AI • ML • UI/UX • Creative Development",
   location: "[ADD LOCATION]",
-  photo: arslanAsimProfile.url,
+  photo: arslanAsimProfile,
   about: [
     "I study how systems behave, a memory allocator, a model's error distribution, a user's first ten seconds on a screen, and then I build the smallest thing that makes that behaviour better.",
     "My Computer Science degree gave me the fundamentals: C and C++ for how machines actually work, Python and Pandas for reasoning about data, and enough statistics to be suspicious of a metric that looks too good.",
@@ -160,15 +160,15 @@ export const projects: Project[] = [
     imageNote: "Mobile Phone Price Range Predictor",
     images: [
       {
-        src: mobilePricePredictorForm.url,
+        src: mobilePricePredictorForm,
         alt: "Mobile Phone Price Range Predictor hardware specs input form",
       },
       {
-        src: mobilePricePredictorSpecs.url,
+        src: mobilePricePredictorSpecs,
         alt: "Camera, display and connectivity inputs of the price predictor",
       },
       {
-        src: mobilePriceConfusionMatrix.url,
+        src: mobilePriceConfusionMatrix,
         alt: "Confusion matrix for the Random Forest price range classifier",
       },
     ],
@@ -193,12 +193,12 @@ export const projects: Project[] = [
     githubUrl: null,
     imageNote: "UMT Website Prototype",
     images: [
-      { src: umt212106.url, alt: "UMT prototype hero section with headline and admission call to action" },
-      { src: umt212144.url, alt: "Campus highlights cards explaining why students choose UMT" },
-      { src: umt212244.url, alt: "Programs offered page header of the UMT prototype" },
-      { src: umt212321.url, alt: "Undergraduate program cards for Computer Science, Data Science and AI" },
-      { src: umt212524.url, alt: "Entry test details and how to apply steps" },
-      { src: umt212626.url, alt: "Faculty page with profile cards" },
+      { src: umt212106, alt: "UMT prototype hero section with headline and admission call to action" },
+      { src: umt212144, alt: "Campus highlights cards explaining why students choose UMT" },
+      { src: umt212244, alt: "Programs offered page header of the UMT prototype" },
+      { src: umt212321, alt: "Undergraduate program cards for Computer Science, Data Science and AI" },
+      { src: umt212524, alt: "Entry test details and how to apply steps" },
+      { src: umt212626, alt: "Faculty page with profile cards" },
     ],
   },
   {
@@ -220,11 +220,11 @@ export const projects: Project[] = [
     githubUrl: null,
     imageNote: "Travel Planner Site",
     images: [
-      { src: travelHero.url, alt: "Travel site hero section with a night city skyline" },
-      { src: travelDeganvy.url, alt: "Deganvy destination card with photo and description" },
-      { src: travelDesert.url, alt: "Desert Egypt destination card with photo and description" },
-      { src: travelPopular.url, alt: "Popular destinations image grid" },
-      { src: travelFeatures.url, alt: "Feature cards and footer of the travel site" },
+      { src: travelHero, alt: "Travel site hero section with a night city skyline" },
+      { src: travelDeganvy, alt: "Deganvy destination card with photo and description" },
+      { src: travelDesert, alt: "Desert Egypt destination card with photo and description" },
+      { src: travelPopular, alt: "Popular destinations image grid" },
+      { src: travelFeatures, alt: "Feature cards and footer of the travel site" },
     ],
   },
 ];
